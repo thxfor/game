@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-image: url(minecraft.png);">
+	<div style="text-align: center;">
+		<h1 class="font" style="color: whitesmoke;">Уследи за крипером</h1>
+	</div>
+
+	<div style="text-align: center">
+		<button class="btn" style="height: 30px; width: 170px; background-color: black; color: white; border-color: white;">Переместить карточки</button>
+	</div>
+	
+
+	<div style="text-align: center;">
+		<h3 class="font" style="color: white;">Попыток осталось: 
+			<span class="try">3</span>
+		</h3>
+	</div>
+
+	<div>
+		<div class="card trns" style="left: 400px; top: 200px; background-image: url(MCow.webp)"></div>
+
+		<div class="card1 trns" style="left: 800px; top: 200px;background-image: url(Ghast.webp)"></div>
+
+		<div class="card2 trns" style="left: 1200px; top: 200px; background-image: url(Creeper.png)"></div>
+	</div>
+
+	<div>
+		<div class="card3 trns" style="left: 400px; top: 500px;background-image: url(Wither.webp)"></div>
+
+		<div class="card4 trns" style="left: 800px; top: 500px;background-image: url(Steve.webp)"></div>
+
+		<div class="card5 trns" style="left: 1200px; top: 500px;background-image: url(Chicken.webp)"></div>
+	</div>
+	
+	<script type="text/javascript">
+		let tries = 2
+		document.querySelector('.card').onclick = function(){
+			document.querySelector('.try').innerHTML = tries;
+				tries = tries - 1;
+			if(tries==-1)  {
+			alert('Ты проиграл')
+		}
+	}
+
+		document.querySelector('.card1').onclick = function(){
+			document.querySelector('.try').innerHTML = tries;
+				tries = tries - 1;
+			if(tries==-1)  {
+			alert('Ты проиграл')
+		}
+	}
+
+		document.querySelector('.card2').onclick = function(){
+			alert('Ты победил')
+
+		}
+
+		document.querySelector('.card3').onclick = function(){
+			document.querySelector('.try').innerHTML = tries;
+				tries = tries - 1;
+			if(tries==-1)  {
+			alert('Ты проиграл')
+		}
+	}
+
+		document.querySelector('.card4').onclick = function(){
+			document.querySelector('.try').innerHTML = tries;
+				tries = tries - 1;
+			if(tries==-1)  {
+			alert('Ты проиграл')
+		}
+	}
+
+		document.querySelector('.card5').onclick = function(){
+			document.querySelector('.try').innerHTML = tries;
+				tries = tries - 1;
+			if(tries==-1)  {
+			alert('Ты проиграл')
+		}
+	}
+
+		document.querySelector('.btn').onclick = function (){
+			document.querySelector('.card').style.left = "1200px"
+			document.querySelector('.card').style.background = "black"
+			document.querySelector('.card1').style.left = "400px"
+			document.querySelector('.card1').style.top = "500px"
+			document.querySelector('.card1').style.background = "black"
+			document.querySelector('.card2').style.left = "400px"
+			document.querySelector('.card2').style.top = "200px"
+			document.querySelector('.card2').style.background = "black"
+			document.querySelector('.card3').style.left = "800px"
+			document.querySelector('.card3').style.top = "200px"
+			document.querySelector('.card3').style.background = "black"
+			document.querySelector('.card4').style.left = "1200px"
+			document.querySelector('.card4').style.top = "500px"
+			document.querySelector('.card4').style.background = "black"
+			document.querySelector('.card5').style.left = "800px"
+			document.querySelector('.card5').style.top = "500px"
+			document.querySelector('.card5').style.background = "black"
+		}
+
+		
+	</script>
+</body>
+</html>

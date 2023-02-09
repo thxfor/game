@@ -1,0 +1,49 @@
+	.card {
+		position: absolute;
+		height: 240px;
+		width: 355px;
+		background-color: darkgrey;
+	}
+
+	.trns {
+		transition: 0.5s;
+	}
+
+	.card1{
+		position: absolute;
+		height: 240px;
+		width: 355px;
+		background-color: darkgrey;
+	}
+
+	.card2{
+		position: absolute;
+		height: 240px;
+		width: 355px;
+		background-color: darkgrey;
+	}
+
+	.card3{
+		position: absolute;
+		height: 240px;
+		width: 355px;
+		background-color: darkgrey;
+	}
+
+	.card4{
+		position: absolute;
+		height: 240px;
+		width: 355px;
+		background-color: darkgrey;
+	}
+
+	.card5{
+		position: absolute;
+		height: 240px;
+		width: 355px;
+		background-color: darkgrey;
+	}
+
+	.font {
+		font-family: Arial;
+	}
